@@ -1,0 +1,22 @@
+.about{
+    display: flex;
+}
+
+hr{
+    width:90%;
+    margin-left: 30px;
+}
+
+.text-container h1{
+    margin: 50px 0 20px 40px;
+    font-size:40px;
+}
+
+.text-container p{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.img-container img{
+    width:300px;
+}

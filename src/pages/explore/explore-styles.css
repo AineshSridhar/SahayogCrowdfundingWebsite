@@ -1,0 +1,78 @@
+h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.search-bar {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.search-input {
+  font-size: 18px;
+  width: 40%;
+  padding: 10px 40px 10px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  right: calc(30% + 10px);
+  right: 475px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}
+
+.campaign-container {
+  width: 90%; 
+  margin: 0 auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.campaign-box {
+  width: 100%;
+  max-width: 320px;
+  height: 400px;
+  border: 2px solid rgb(255, 162, 0);
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color:rgb(78, 76, 76)
+}
+
+.campaign-box:hover{
+  transform:scale(1.05);
+  transform:translate(-5px, -10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.campaign-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.campaign-description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
